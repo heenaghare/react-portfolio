@@ -1,0 +1,30 @@
+/* Navbar.css */
+
+.navbar {
+  background-color:#3f5c5c;
+}
+
+.navbar-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item {
+  margin: 20px;
+  padding-left: 70px;
+  transition: transform 0.3s ease-in-out; /* Example transition for movement */
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: bisque;
+  transition: color 0.3s ease-in-out; /* Transition for color change */
+}
+
+.navbar-link:hover {
+  color:burlywood;
+  transform: scale(1.1); /* Example transform on hover */
+}

@@ -1,0 +1,19 @@
+/* home section styling */
+.home{
+    color: CRIMSON;
+    font-family: 'Ubuntu', sans-serif;
+
+
+}
+.home .home-content .text-1{
+    color: black;
+    font-size: 27px;
+    POSITION: RELATIVE;
+    TOP:50PX;
+}
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    POSITION: RELATIVE;
+    TOP:60PX;
+}

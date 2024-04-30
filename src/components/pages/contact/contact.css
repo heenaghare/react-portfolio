@@ -1,0 +1,92 @@
+.contact {
+  padding: 80px 0;
+}
+
+.max-width {
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.column {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.text {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.icons .row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.icons .row i {
+  margin-right: 15px;
+  font-size: 24px;
+  color: #ff9a00;
+}
+
+.icons .info .head {
+  font-weight: bold;
+  color: #333;
+}
+
+.icons .info .sub-title {
+  color: #777;
+}
+
+.fields {
+  display: flex;
+  flex-direction: column; /* Changed to column layout */
+  margin-bottom: 10px;
+
+}
+
+.field {
+  flex: 1;
+  margin-bottom: 10px;
+}
+
+.field input,
+.field textarea {
+  width: 100%; /* Modified width for better responsiveness */
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  box-sizing: border-box; /* Ensure padding and borders don't affect element width */
+}
+
+.button-area {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.button-area button {
+  padding: 12px 24px;
+  background-color: #40B5AD;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+}
+
+.button-area button:hover {
+  background-color: #5a9cd3;
+}
+.head{
+  color:#ff9a00;
+}

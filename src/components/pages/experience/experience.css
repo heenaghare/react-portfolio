@@ -1,0 +1,68 @@
+/* Add these styles to your experience.css file */
+/* Add these styles to your experience.css file */
+
+/* Styles for the card-like structure */
+.card {
+  border: 2px solid greenyellow ;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Rest of your existing styles... */
+
+/* Styles for tabs */
+.tab-panel {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 100px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  padding: 10px 20px;
+  border: none;
+  background-color: goldenrod;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: white;
+  border-radius: 5px;
+}
+
+.tabs button:hover {
+  background-color: #40B5AD;
+}
+
+.tabs button.active {
+  background-color: #297d7d	;
+  color: white;
+  border-color: #007bff;
+}
+
+/* Styles for tab content */
+
+/* Work Experience, Education, Certifications sections */
+h3 {
+  margin-top: 0;
+  color: #007bff;
+}
+
+/* Individual work experience, education, certification items */
+h4 {
+  margin-top: 0;
+  color: #333;
+}
+
+p {
+  margin-top: 5px;
+  color: #555;
+}
